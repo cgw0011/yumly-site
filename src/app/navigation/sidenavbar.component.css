@@ -1,0 +1,80 @@
+.fm {
+    outline-color: #5f9ea0;
+    outline-width: 1;
+    outline-style: solid;
+    border-radius: 15%;
+    color:rgb(255, 255, 255);
+    fill: rgb(95, 158, 160);
+    background-color: rgb(95, 158, 160);
+    width:140px;
+    height:40px;
+    font-size: 3.52;
+}
+
+.fm:hover {
+    outline-color:rgb(100, 163, 165);
+    fill: rgb(100, 163, 165);
+    background-color: rgb(100, 163, 165);
+}
+
+.listitem {
+    color: gray;
+    text-decoration: none;
+}
+
+.listitem:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.sidebar {
+    overflow-y:scroll;
+    overflow-x:hidden;
+    max-width:100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 4px;
+    margin:4px, 4px;
+    width: 216px;
+    height: 548px;
+    font-size:14px;
+    text-align:justify;
+}
+
+.yumly {
+    padding-top:92px;
+    padding-bottom:92px;
+    padding-left:65px;
+    padding-right:50px;
+}
+
+.listitembold {
+    color: #000000;
+    text-decoration: none;
+}
+
+.listitembold:hover {
+    color: #5f9ea0;
+    text-decoration: none;
+    
+}
+
+.listitemblue {
+    color: rgb(95, 158, 160);
+    text-decoration: none;
+}
+
+.listitemblue:hover {
+    color: rgb(100, 163, 165);
+    text-decoration: none;
+    
+}
+
+div.bottomnav {
+    list-style:none;
+    text-indent:0;
+    text-align: center;
+    width: 216px;
+    font-size:11px;
+}
