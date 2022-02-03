@@ -44,9 +44,12 @@
 
 .yumly {
     padding-top:92px;
-    padding-bottom:92px;
+    padding-bottom:65px;
     padding-left:65px;
     padding-right:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .listitembold {

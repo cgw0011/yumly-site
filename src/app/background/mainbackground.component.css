@@ -1,0 +1,35 @@
+.container {
+    left: 195.05px;
+    position: relative;
+    
+    max-width:10000px;
+    width:1539px;
+    max-height:10000px;
+    height:10000px;
+}
+
+.mainbackground {
+    width:106.5%;
+    height:auto;
+}
+
+.topleftbackground {
+    position:absolute;
+    left:10px;
+    top:0px;
+    width:190px;
+}
+
+.toprightbackground {
+    position:absolute;
+    right:-87px;
+    top:0px;
+    max-width:75%;
+}
+
+.sidebackground {
+    position:absolute;
+    right:-33px;
+    top:90px;
+    max-width:75%;
+}
