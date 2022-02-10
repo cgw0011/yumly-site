@@ -21,7 +21,7 @@
     position:fixed;
 }
 
-.content {
+.contents {
     
     position:absolute;
     top:20px;
@@ -38,5 +38,31 @@
 
 .centered {
     text-align:center;
+}
+
+.circcontainer {
+    width:150px;
+    height:150px;
+    text-align:center;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.circtext {
+    position:relative;
+    top: -52%;
+    left: 0px;
+    color:rgb(255, 255, 255);
+    overflow:visible;
+    text-decoration: none;
+}
+
+.foodcontainer {
+    display:flex;
+    position:absolute;
+    top:280px;
+    left:0px;
+    height:276px;
+    width:1613.47px;
 }
 
