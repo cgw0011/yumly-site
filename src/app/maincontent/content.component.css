@@ -16,3 +16,67 @@
 .centered {
     text-align:center;
 }
+
+.circcontainer {
+    width:160px;
+    height:150px;
+    text-align:center;
+    padding-right:0px;
+    padding-left:20px;
+    align-items: baseline;
+}
+
+.circtext {
+    position:relative;
+    top: -54%;
+    left: 0px;
+    color:rgb(255, 255, 255);
+    overflow:visible;
+    text-decoration: none;
+}
+
+.foodcontainer {
+    display:flex;
+    align-items: baseline;
+    position:absolute;
+    top:280px;
+    left:50px;
+    height:206px;
+    width:1513.47px;
+    overflow-x:scroll;
+}
+
+.maincontainer {
+    display:flex;
+    position:absolute;
+    top:180px;
+    left:0px;
+    height:176px;
+    width:1613.47px;
+}
+
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.personalize {
+    color:#707070;
+    font-size:12px;
+}
+
+.whatare {
+    color:#4a4a4a;
+    font-size:34px;
+    padding-bottom:30px;
+}
+
+.row {
+    margin:0px;
+    height:0px;
+}
+
+.container {
+    flex:center;
+}

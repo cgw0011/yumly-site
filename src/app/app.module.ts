@@ -7,6 +7,13 @@ import { MainBackgroundComponent } from './background/mainbackground.component';
 import { ContentComponent } from './maincontent/content.component';
 import { FavoriteComponent } from './maincontent/favoritefoods/favorite.component';
 import { FoodCircleComponent } from './food/foodcircle.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ArticleComponent } from './article/article.component';
+import { MainbackgroundTextComponent } from './background/mainbackground-text.component';
+import { MealPlannerComponent } from './mealplanner/mealplanner.component';
+import { PantryReadyRecipes } from './pantryready/pantryready.component';
+import { BrowseComponent } from './browse/browse.component';
+import { ProRecipesComponent } from './prorecipes/prorecipes.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +23,16 @@ import { FoodCircleComponent } from './food/foodcircle.component';
     ContentComponent,
     FavoriteComponent,
     FoodCircleComponent,
+    ArticleComponent,
+    MainbackgroundTextComponent,
+    MealPlannerComponent,
+    PantryReadyRecipes,
+    BrowseComponent,
+    ProRecipesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,12 +9,5 @@ import { FoodList } from './food/mock-list.model';
 })
 export class AppComponent {
   title = 'yumly-site';
-  foods: FoodList [] = [];
 
-  constructor() {
-    for (var product of mock_list) {
-      console.log(product);
-      this.foods.push(product);
-    }
-  }
 }

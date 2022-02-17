@@ -1,0 +1,21 @@
+div.master {
+    height:100%;
+    width:1500px;
+}
+ 
+div.main {
+    height:10%;
+    width:1200%;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.yumly {
+    padding-top:25px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}

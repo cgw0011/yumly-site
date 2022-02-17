@@ -1,32 +1,5 @@
-<div class = "containedside">
+<div class = "containedside d-flex">
+    <router-outlet></router-outlet>
     
-    <yumly-sidenavbar class = "fixed">Loading...</yumly-sidenavbar>
-    <div class=container>
-        <main-background></main-background>
-        
-        <div class = "contents">
-            <p>
-                
-                
-            </p>
-            <div class="limitedspan">
-                <content></content>
-            </div>
-            <favorite></favorite>
-            <div class = "justify-content-center text-center d-flex foodcontainer">
-                <div *ngFor="let product of foods">
-                    <div class="circcontainer">
-                        <a href="#">
-                            <img src="{{product.img}}" class="img-fluid rounded-circle" alt="...">
-                        
-                        <div class="circtext overflow-visible">
-                            {{product.text}}
-                        </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
