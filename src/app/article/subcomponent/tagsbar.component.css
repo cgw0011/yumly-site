@@ -1,0 +1,25 @@
+.span {
+    width:inherit;
+    overflow-x:scroll;
+}
+
+.tagcontainer {
+    padding-right:32px;
+    height:179px;
+    width:160px;
+}
+
+.buttonlink {
+    color: rgba(74, 74, 74);
+    text-decoration: none;
+}
+
+.buttonlink:active {
+    color: #5f9ea0;
+    text-decoration: none;
+}
+
+.text:active {
+    color: #5f9ea0;
+    text-decoration: none;
+}

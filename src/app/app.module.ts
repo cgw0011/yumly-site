@@ -14,6 +14,8 @@ import { MealPlannerComponent } from './mealplanner/mealplanner.component';
 import { PantryReadyRecipes } from './pantryready/pantryready.component';
 import { BrowseComponent } from './browse/browse.component';
 import { ProRecipesComponent } from './prorecipes/prorecipes.component';
+import { TagsBarComponent } from './article/subcomponent/tagsbar.component';
+import { TagsListComponent } from './article/subcomponent/tagslist/tagslist.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ProRecipesComponent } from './prorecipes/prorecipes.component';
     MealPlannerComponent,
     PantryReadyRecipes,
     BrowseComponent,
-    ProRecipesComponent
+    ProRecipesComponent,
+    TagsBarComponent,
+    TagsListComponent
   ],
   imports: [
     BrowserModule,

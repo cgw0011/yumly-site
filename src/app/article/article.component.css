@@ -17,9 +17,9 @@
     
     position:absolute;
     top:68px;
-    left:133.05px;
+    left:13.05px;
     height:100vh;
-    width:1611.45px;
+    width:1551.45px;
 }
 
 .limitedspan {
@@ -43,10 +43,14 @@
 }
 
 .mainbackground {
-    width:106.5%;
+    width:105.1%;
     height:auto;
 }
 
 .graytext {
     color:rgba(74, 74, 74);
+}
+
+.offset {
+    margin-left: 30px;
 }
