@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2/24/22
 Main Features:
     -Created components for three pages
@@ -13,6 +14,10 @@ Main Features:
 
 2/17/22
 Main Features:
+=======
+2/17/22
+Main Features
+>>>>>>> dc10af9a18f4b1047768aeb686c035f31624ff00
 	-Added angular routing
 	-Working links have been added for some of the sidebar elements with a component created for each
 		-Yummly Picture
@@ -30,4 +35,9 @@ Main Features:
 -Added the first 3 of circle links to the favorite cuisine section
 	-Added mock-list.ts and mock-list.model.ts that uses the attributes:
 		-img src
+<<<<<<< HEAD
 		-text	
+=======
+		-text	
+	
+>>>>>>> dc10af9a18f4b1047768aeb686c035f31624ff00
