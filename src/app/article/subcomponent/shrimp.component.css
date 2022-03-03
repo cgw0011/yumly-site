@@ -1,0 +1,50 @@
+.img-fluid {
+    width: 100%;
+}
+
+.containes {
+    position:absolute;
+    left:18px;
+    height:1126.81px;
+    width:1000px;
+    top:230px;
+}
+
+.whitebox {
+    width:550px;
+    height:550px;
+    background-color:white;
+    padding:0px;
+    padding-left:0;
+    padding-right:0;
+    margin:0px;
+}
+
+.itemsubtext {
+    color:rgba(190, 190, 190);
+}
+
+.itemtext{
+    color:rgba(100, 100, 100);
+}
+
+.nostyle {
+    
+    overflow:visible;
+    text-decoration: none;
+}
+
+.itembold {
+    color: #000000;
+    text-decoration: none;
+}
+
+.itembold:hover {
+    color: #5f9ea0;
+    text-decoration: none;
+    
+}
+
+.boxpadding {
+    padding:100px;
+}

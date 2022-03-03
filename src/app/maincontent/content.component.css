@@ -80,3 +80,49 @@
 .container {
     flex:center;
 }
+
+.belowfoodcontainer {
+    display:flex;
+    align-items: center;
+    position:absolute;
+    top:450px;
+    left:50px;
+    height:206px;
+    width:1513.47px;
+}
+
+.fm {
+    outline-color: #5f9ea0;
+    outline-width: 1;
+    outline-style: solid;
+    border-radius: 15%;
+    color:rgb(255, 255, 255);
+    fill: rgb(95, 158, 160);
+    background-color: rgb(95, 158, 160);
+    width:125px;
+    height:40px;
+    font-size: 3.52;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.fm:hover {
+    outline-color:rgb(100, 163, 165);
+    fill: rgb(100, 163, 165);
+    background-color: rgb(100, 163, 165);
+}
+
+.recommend {
+    color:rgba(190, 190, 190);
+    overflow:visible;
+    text-decoration: none;
+    font-size: small;
+}
+
+.listcontainer {
+    position:absolute;
+    top:820px;
+    left:50px;
+    width:1513.47px;
+}

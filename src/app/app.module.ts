@@ -16,6 +16,9 @@ import { BrowseComponent } from './browse/browse.component';
 import { ProRecipesComponent } from './prorecipes/prorecipes.component';
 import { TagsBarComponent } from './article/subcomponent/tagsbar.component';
 import { TagsListComponent } from './article/subcomponent/tagslist/tagslist.component';
+import {HttpClientModule} from '@angular/common/http'
+import { MainListComponent } from './maincontent/maincontentlist/mainlist.component';
+import { ShrimpComponent } from './article/subcomponent/shrimp.component';
 
 @NgModule({
   declarations: [
@@ -32,11 +35,14 @@ import { TagsListComponent } from './article/subcomponent/tagslist/tagslist.comp
     BrowseComponent,
     ProRecipesComponent,
     TagsBarComponent,
-    TagsListComponent
+    TagsListComponent,
+    MainListComponent,
+    ShrimpComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

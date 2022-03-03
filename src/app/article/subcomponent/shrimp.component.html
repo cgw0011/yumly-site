@@ -1,0 +1,26 @@
+
+<img src="/assets/articles/Garlic-butter-shrimp-pasta2_hero.webp" class = "img-fluid">
+<div class="containes container d-flex align-items-center">
+    <div class = "whitebox container">
+        <div *ngIf="shrimpInfo==undefined">
+            <p>
+                Failed to fetch user data
+            </p>
+        </div>
+        <div *ngIf="shrimpInfo!=undefined">
+            <a class = "boxpadding nav-link" href = {{shrimpInfo.subtext}}>
+                <div class = "nostyle itemsubtext nav-link">
+                    {{shrimpInfo.title}}
+                </div>
+                <div class = "nostyle itembold nav-link text-break fs-5 fw-bold">
+                    {{shrimpInfo.title}}
+                </div>
+                <div class = "nostyle itemtext nav-link text-break">
+                    {{shrimpInfo.text}}
+                </div>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
