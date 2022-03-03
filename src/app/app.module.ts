@@ -19,6 +19,7 @@ import { TagsListComponent } from './article/subcomponent/tagslist/tagslist.comp
 import {HttpClientModule} from '@angular/common/http'
 import { MainListComponent } from './maincontent/maincontentlist/mainlist.component';
 import { ShrimpComponent } from './article/subcomponent/shrimp.component';
+import { MyInfoComponent } from './article/subcomponent/myinfo.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ShrimpComponent } from './article/subcomponent/shrimp.component';
     TagsBarComponent,
     TagsListComponent,
     MainListComponent,
-    ShrimpComponent
+    ShrimpComponent,
+    MyInfoComponent
   ],
   imports: [
     BrowserModule,

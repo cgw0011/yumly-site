@@ -1,7 +1,8 @@
 3/3/22
 Main Features:
+	-Added info on top of Articles page
+		-Uses database for information
 	-Created component for Articles(shrimp.component)
-		-uses database for most of its text and link
 	-Added currently unused content on home page
 
 2/24/22
