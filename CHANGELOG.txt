@@ -1,3 +1,10 @@
+3/10/22
+Main Features:
+	-Added mock-list.service.ts in the food folder
+	-mock-list for the food bar now uses the online database
+	-added data at top of homepage
+	-background improvements across webpages with marble background
+
 3/3/22
 Main Features:
 	-Added info on top of Articles page

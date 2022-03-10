@@ -8,8 +8,8 @@
 }
 
 .limitedspan {
-    padding-left:500px;
-    padding-right:500px;
+    padding-left:600px;
+    padding-right:600px;
 
 }
 
@@ -40,7 +40,7 @@
     align-items: baseline;
     position:absolute;
     top:280px;
-    left:50px;
+    left:150px;
     height:206px;
     width:1513.47px;
     overflow-x:scroll;
@@ -50,7 +50,7 @@
     display:flex;
     position:absolute;
     top:180px;
-    left:0px;
+    left:100px;
     height:176px;
     width:1613.47px;
 }
@@ -85,9 +85,9 @@
     display:flex;
     align-items: center;
     position:absolute;
-    top:450px;
-    left:50px;
-    height:206px;
+    top:500px;
+    left:150px;
+    height:156px;
     width:1513.47px;
 }
 
@@ -123,6 +123,6 @@
 .listcontainer {
     position:absolute;
     top:820px;
-    left:50px;
+    left:150px;
     width:1513.47px;
 }

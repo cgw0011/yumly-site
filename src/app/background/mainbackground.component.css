@@ -9,7 +9,7 @@
 }
 
 .mainbackground {
-    width:106.5%;
+    width:88.5vw;
     height:auto;
 }
 
@@ -22,14 +22,14 @@
 
 .toprightbackground {
     position:absolute;
-    right:-87px;
+    right:-290px;
     top:0px;
     max-width:75%;
 }
 
 .sidebackground {
     position:absolute;
-    right:-33px;
+    right:-273px;
     top:90px;
     max-width:75%;
 }
