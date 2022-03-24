@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/yumly-site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
