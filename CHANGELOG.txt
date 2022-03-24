@@ -1,3 +1,7 @@
+3/24/22
+Main Features:
+	-Added firebase support
+
 3/10/22
 Main Features:
 	-Added mock-list.service.ts in the food folder
