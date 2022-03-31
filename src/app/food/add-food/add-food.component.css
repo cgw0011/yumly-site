@@ -1,0 +1,28 @@
+.fixed {
+    position:fixed;
+}
+
+.contents {
+    
+    position:absolute;
+    top:20px;
+    left:218.05px;
+    height:100vh;
+    width:1611.45px;
+}
+
+.btn-add {
+    fill: rgb(95, 158, 160);
+    background-color: rgb(95, 158, 160);
+}
+
+.btn-add:disabled {
+    fill: white;
+    background-color: white;
+}
+
+.btn-add:hover {
+    fill: rgb(100, 163, 165);
+    background-color: rgb(100, 163, 165);
+    color: white;
+}

@@ -20,6 +20,13 @@ import {HttpClientModule} from '@angular/common/http'
 import { MainListComponent } from './maincontent/maincontentlist/mainlist.component';
 import { ShrimpComponent } from './article/subcomponent/shrimp.component';
 import { MyInfoComponent } from './article/subcomponent/myinfo.component';
+import { AddFoodComponent } from './food/add-food/add-food.component';
+import { FormsModule } from '@angular/forms';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -39,12 +46,16 @@ import { MyInfoComponent } from './article/subcomponent/myinfo.component';
     TagsListComponent,
     MainListComponent,
     ShrimpComponent,
-    MyInfoComponent
+    MyInfoComponent,
+    AddFoodComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

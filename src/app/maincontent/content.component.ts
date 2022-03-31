@@ -21,6 +21,7 @@ export class ContentComponent implements OnInit {
       console.log(data);
       for (var product of data) {
         this.foods.push(product);
+        console.log(product);
       }
     })
   }

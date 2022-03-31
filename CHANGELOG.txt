@@ -1,3 +1,8 @@
+3/31/22
+Main Features:
+	-Added a new webpage path /admin
+	-Added support for adding new food pages on the admin page by adding the data to the database
+
 3/24/22
 Main Features:
 	-Added firebase support
