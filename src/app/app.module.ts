@@ -27,6 +27,7 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     MainListComponent,
     ShrimpComponent,
     MyInfoComponent,
-    AddFoodComponent
+    AddFoodComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

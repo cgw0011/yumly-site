@@ -9,11 +9,13 @@ import { PantryReadyRecipes } from './pantryready/pantryready.component';
 import { BrowseComponent } from './browse/browse.component';
 import { ProRecipesComponent } from './prorecipes/prorecipes.component';
 import { AddFoodComponent } from './food/add-food/add-food.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path: 'articles', component:ArticleComponent},
   {path: '', component:MainbackgroundTextComponent},
   {path: 'admin', component:AddFoodComponent},
+  {path: 'auth', component:AuthenticationComponent},
   {path: 'meal-planner', component:MealPlannerComponent},
   {path: 'pantry-ready-recipes', component:PantryReadyRecipes},
   {path: 'browse', component:BrowseComponent},
