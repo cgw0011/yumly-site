@@ -1,0 +1,119 @@
+.content {
+    
+    position:absolute;
+    top:20px;
+    left:218.05px;
+    height:100vh;
+    width:1611.45px;
+}
+
+.limitedspan {
+    padding-left:600px;
+    padding-right:600px;
+
+}
+
+.centered {
+    text-align:center;
+}
+
+.circcontainer {
+    width:160px;
+    height:150px;
+    text-align:center;
+    padding-right:0px;
+    padding-left:20px;
+    align-items: baseline;
+}
+
+.circtext {
+    position:relative;
+    top: -54%;
+    left: 0px;
+    color:rgb(255, 255, 255);
+    overflow:visible;
+    text-decoration: none;
+}
+
+.foodcontainer {
+    display:flex;
+    align-items: baseline;
+    position:absolute;
+    top:280px;
+    left:150px;
+    height:206px;
+    width:1513.47px;
+    overflow-x:scroll;
+}
+
+.btn-dark {
+    border-color:#5f9ea0;
+    background-color: #5f9ea0;
+    
+}
+
+.maincontainer {
+    position:absolute;
+    top:180px;
+    left:240px;
+    height:176px;
+    width:750.0px;
+}
+
+.center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.personalize {
+    color:#707070;
+    font-size:12px;
+}
+
+.whatare {
+    color:#4a4a4a;
+    font-size:34px;
+    padding-bottom:30px;
+}
+
+.row {
+    margin:0px;
+    height:0px;
+}
+
+.container {
+    flex:center;
+}
+
+.belowfoodcontainer {
+    display:flex;
+    align-items: center;
+    position:absolute;
+    top:500px;
+    left:150px;
+    height:156px;
+    width:1513.47px;
+}
+
+.fm {
+    outline-color: #5f9ea0;
+    outline-width: 1;
+    outline-style: solid;
+    border-radius: 15%;
+    color:rgb(255, 255, 255);
+    fill: rgb(95, 158, 160);
+    background-color: rgb(95, 158, 160);
+    width:125px;
+    height:40px;
+    font-size: 3.52;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.fm:hover {
+    outline-color:rgb(100, 163, 165);
+    fill: rgb(100, 163, 165);
+    background-color: rgb(100, 163, 165);
+}

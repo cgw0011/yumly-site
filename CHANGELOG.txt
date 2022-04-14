@@ -1,3 +1,13 @@
+4/14/22
+Main Features:
+	-Added an authentication service with emails
+	-Sign up button for users to add their emails
+	-Login button to send login signal
+	-New page /auth that has the user interface
+
+4/13/22
+Added authentication structure code in auth/authentication
+
 3/31/22
 Main Features:
 	-Added a new webpage path /admin
